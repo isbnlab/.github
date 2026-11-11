@@ -2,7 +2,7 @@
 
 **Book metadata by ISBN, for developers.** [ISBNLab](https://www.isbnlab.com/) is a catalog of more than 100 million book editions, with a REST and GraphQL API for looking up books, authors, publishers, subjects and BISAC genres, and for validating and converting ISBN-10, ISBN-13, EAN and ASIN.
 
-This organization holds the official ISBNLab API SDKs, generated from our [OpenAPI specification](https://www.isbnlab.com/api/docs.jsonopenapi), and open-source tools for working with ISBNs.
+This organization holds the official ISBNLab API client libraries, generated from our [OpenAPI specification](https://www.isbnlab.com/api/docs.jsonopenapi), and open-source tools for working with book metadata.
 
 ## Quick start
 
@@ -16,6 +16,14 @@ curl 'https://www.isbnlab.com/api/book/isbn/9780765302304' \
 ```
 
 You get back the title, authors, publishers, series, genres, formats, page count, description and every other edition of the same book.
+
+## Libraries
+
+| Repository | What it is | Install |
+|---|---|---|
+| [isbnlab-php](https://github.com/isbnlab/isbnlab-php) | PHP client for the ISBNLab API | `composer require isbnlab/isbnlab-php` |
+| [isbnlab-symfony-example](https://github.com/isbnlab/isbnlab-symfony-example) | Example Symfony app using the PHP client | Clone and run |
+| [isbnlab-onix-php](https://github.com/isbnlab/isbnlab-onix-php) | Streaming reader for ONIX for Books 2.1, 3.0 and 3.1 files | `composer require isbnlab/onix` |
 
 ## The API
 
@@ -47,4 +55,4 @@ The Free plan includes 1,000 calls a day. See [pricing](https://www.isbnlab.com/
 
 [Book database](https://www.isbnlab.com/book-database) · [How it works](https://www.isbnlab.com/how-it-works) · [FAQ](https://www.isbnlab.com/frequently-asked-questions) · [Blog](https://www.isbnlab.com/blog) · [Contact](https://www.isbnlab.com/contact-us)
 
-Questions or SDK requests: open an issue in the relevant repository or email hello@isbnlab.com.
+Questions or requests for a client library in another language: open an issue in the relevant repository or email hello@isbnlab.com.
