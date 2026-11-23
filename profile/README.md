@@ -22,6 +22,7 @@ You get back the title, authors, publishers, series, genres, formats, page count
 | Repository | What it is | Install |
 |---|---|---|
 | [isbnlab-php](https://github.com/isbnlab/isbnlab-php) | PHP client for the ISBNLab API | `composer require isbnlab/isbnlab-php` |
+| [isbnlab-wordpress](https://github.com/isbnlab/isbnlab-wordpress) | WordPress plugin: fill WooCommerce products from an ISBN and show books with a block or shortcode | [Get it on WordPress.org](https://wordpress.org/plugins/isbnlab/) |
 | [isbnlab-symfony-example](https://github.com/isbnlab/isbnlab-symfony-example) | Example Symfony app using the PHP client | Clone and run |
 | [isbnlab-onix-php](https://github.com/isbnlab/isbnlab-onix-php) | Streaming reader for ONIX for Books 2.1, 3.0 and 3.1 files | `composer require isbnlab/onix` |
 
